@@ -67,3 +67,102 @@ body {
 .sell-button:hover {
   background-color: #29B24E;
 }
+
+.filter-box {
+  width: 395px;
+  background: #F8F8F8;
+  border-radius: 24px;
+  padding: 32px;
+  margin: 40px auto;
+  box-shadow: 0 4px 25px rgba(194, 194, 194, 0.31);
+  font-family: 'Poppins', sans-serif;
+}
+
+.filter-section {
+  margin-bottom: 32px;
+}
+
+.filter-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.dropdown {
+  border: 1px solid #CCE3DA;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 331px;
+  height: 48px;
+  background: white;
+  position: relative;
+}
+
+.dropdown-arrow-wrapper {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  position: relative;
+}
+
+.dropdown-arrow {
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  top: 6px;
+  left: 3px;
+}
+
+.subtext {
+  color: #8A8A8A;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  cursor: pointer;
+  gap: 12px;
+  position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkmark {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1.4px solid #29B24E;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  background-color: #29B24E;
+}
+
+.checkmark svg {
+  width: 12px;
+  height: 9px;
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark svg {
+  display: block;
+}
