@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  background-color: #FFFFFF;
 }
 
 .layout-container {
@@ -92,7 +93,6 @@ body {
   background-color: #29B24E;
 }
 
-/* Main Content */
 .main-content {
   display: flex;
   gap: 20px;
@@ -260,7 +260,6 @@ body {
   margin-right: auto;
 }
 
-/* Search Box */
 .search-box {
   width: 324px;
   height: 48px;
@@ -320,3 +319,138 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.trending-section {
+  background: #FFFFFF;
+  padding: 80px 140px;
+}
+
+.trending-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+.card {
+  background: #F8F8F8;
+  border-radius: 24px;
+  box-shadow: 0px 4px 18px 0px #C2C2C24D;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+
+
+.card-image {
+  width: 100%;
+  height: 202px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+
+.vip-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #29B24E;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 11px;
+  border-radius: 15px;
+}
+.card {
+  position: relative;
+}
+
+.bookmark-wrapper {
+  position: absolute;
+  top: 182px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: -2px 4px 20px 0px #6D6D6D40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-icon {
+  width: 7.875px;
+  height: 11.25px;
+}
+
+.bookmark-icon path {
+  stroke: #29B24E;
+  stroke-width: 1.13px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+
+
+
+.card-content {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 6px;
+  line-height: 100%;
+}
+
+.card-location {
+  font-size: 14px;
+  opacity: 0.5;
+  line-height: 100%;
+}
+
+.card-price {
+  font-size: 24px;
+  font-weight: 500;
+  color: #29B24E;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 12px;
+  padding-bottom: 10px;
+}
+
+
