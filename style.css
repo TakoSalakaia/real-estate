@@ -453,6 +453,18 @@ body {
   padding-bottom: 10px;
 }
 
+
+.price-period {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-left: 4px;
+  text-align: right;
+}
+
 .main-footer {
   background: #29B24E;
   border-radius: 25px;
