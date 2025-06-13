@@ -804,3 +804,9 @@ body {
     margin-bottom: 4px;
   }
 }
+
+@media (min-width: 768px) {
+  .hidden-nav {
+    display: none !important;
+  }
+}
