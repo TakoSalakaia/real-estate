@@ -742,6 +742,15 @@ html, body {
     height: 72px;
     width: 100%;
   }
+   
+  .nav-home a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
 
   .nav-home,
   .nav-disc,
